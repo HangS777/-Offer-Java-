@@ -1,4 +1,4 @@
-public class Q4_Search2DArray {
+public class Q04_Search2DArray {
 
     //在一个二维数组中，每一行都按照从左到右
     //递增的顺序排序，每一列都按照从上到下递增的顺序排序。
@@ -25,7 +25,7 @@ public class Q4_Search2DArray {
     }
 
     public static void main(String[] args) {
-        Q4_Search2DArray obj = new Q4_Search2DArray();
+        Q04_Search2DArray obj = new Q04_Search2DArray();
         int[][] arr = new int[][]{{1, 2, 8, 9},
                                     {2, 4, 9, 12},
                                     {4, 7, 10, 13},

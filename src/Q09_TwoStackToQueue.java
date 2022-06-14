@@ -2,7 +2,7 @@ import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Stack;
 
-public class Q9_TwoStackToQueue {
+public class Q09_TwoStackToQueue {
 
     public static class TwoStackImplementQueue<T> {
         Stack<T> pushStack;

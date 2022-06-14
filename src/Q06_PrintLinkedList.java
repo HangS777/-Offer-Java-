@@ -1,7 +1,7 @@
 
 import java.util.*;
 
-public class Q6_PrintLinkedList {
+public class Q06_PrintLinkedList {
 
     //输入一个链表的头结点，从尾到头返过来
     //打印出每个结点的值。链表结点定义如下：
@@ -38,7 +38,7 @@ public class Q6_PrintLinkedList {
     }
 
     public static void main(String[] args) {
-        Q6_PrintLinkedList obj = new Q6_PrintLinkedList();
+        Q06_PrintLinkedList obj = new Q06_PrintLinkedList();
         Node node = new Node(0);
         node.next = new Node(1);
         node.next.next = new Node(2);

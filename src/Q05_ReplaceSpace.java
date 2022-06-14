@@ -1,4 +1,4 @@
-public class Q5_ReplaceSpace {
+public class Q05_ReplaceSpace {
 
     //请实现一个函数，将一个字符串中的空格替换成“%20”。
     //例如，当字符串为We Are Happy.
@@ -68,7 +68,7 @@ public class Q5_ReplaceSpace {
     }
 
     public static void main(String[] args) {
-        Q5_ReplaceSpace obj = new Q5_ReplaceSpace();
+        Q05_ReplaceSpace obj = new Q05_ReplaceSpace();
         StringBuilder sb = new StringBuilder("We are happy.");
         System.out.println(sb.toString());
         System.out.println(obj.replaceSpace1(sb));

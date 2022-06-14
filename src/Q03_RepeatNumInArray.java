@@ -1,4 +1,4 @@
-public class Q3_RepeatNumInArray {
+public class Q03_RepeatNumInArray {
 
     //题目一
     // 找出数组中重复的数字。
@@ -88,7 +88,7 @@ public class Q3_RepeatNumInArray {
 
 
     public static void main(String[] args) {
-        Q3_RepeatNumInArray obj = new Q3_RepeatNumInArray();
+        Q03_RepeatNumInArray obj = new Q03_RepeatNumInArray();
         int[] arr = new int[]{2, 3, 1, 0, 2, 5, 3};
         int[] duplication = new int[1];
         System.out.println(obj.duplicate1(arr, 7, duplication));

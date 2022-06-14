@@ -1,4 +1,4 @@
-public class Q7_ReconstructBinaryTree {
+public class Q07_ReconstructBinaryTree {
 
     //输入某二叉树的前序遍历和中序遍历的结果，请重建出该二叉树。
     //假设输入的前序遍历和中序遍历的结果中都不含重复的数字。
@@ -38,7 +38,7 @@ public class Q7_ReconstructBinaryTree {
     }
 
     public static void main(String[] args) {
-        Q7_ReconstructBinaryTree obj = new Q7_ReconstructBinaryTree();
+        Q07_ReconstructBinaryTree obj = new Q07_ReconstructBinaryTree();
         int[] preOrder = new int[]{1, 2, 4, 7, 3, 5, 6, 8};
         int[] inOrder = new int[]{4, 7, 2, 1, 5, 3, 8, 6};
         TreeNode node = obj.reconstructBinaryTree(preOrder, inOrder, 8);

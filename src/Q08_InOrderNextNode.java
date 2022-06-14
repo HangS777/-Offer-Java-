@@ -1,4 +1,4 @@
-public class Q8_InOrderNextNode {
+public class Q08_InOrderNextNode {
 
     // 给定一个二叉树和其中的一个结点，如何找出中序遍历顺序的
     // 下一个结点并且返回。 树种的结点除了有两个分别指向左，右
@@ -40,7 +40,7 @@ public class Q8_InOrderNextNode {
     }
 
     public static void main(String[] args) {
-        Q8_InOrderNextNode obj = new Q8_InOrderNextNode();
+        Q08_InOrderNextNode obj = new Q08_InOrderNextNode();
         TreeNode root = new TreeNode('a');
         root.left = new TreeNode('b');
         root.left.parent = root;
