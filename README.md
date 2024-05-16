@@ -1,6 +1,5 @@
-# 剑指Offer第二版-Java实现
-剑指Offer第二版题目的全Java实现
-Author: 苏航
+# Coding Interviews: Questions, Analysis and Solutions 2nd Edition - Java Implementaion 剑指Offer第二版-Java实现
+Author: Hang Su 苏航
 Date: 2021/11/14
 
 [Q1_Java版忽略]
